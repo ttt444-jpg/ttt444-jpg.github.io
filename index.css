@@ -106,17 +106,17 @@ body {
 }
 
 .container3 {
-  width: 100vw;
-  height: 50vh;
   text-align: center;
-  position: fixed
+  position: fixed;
+  background-color: rgba(7,87,148, 0.75);
+  font-size: 50px;
+  font-weight: bold;
+  position: fixed;
+  top: 50vh;
+  left: 20vw;
+  padding: 1.5vh;
 }
 
 .Arbeitsplatz {
-  color: black;
-  font-size: 50px;
-  font-weight: bold;
-  position: absolute;
-  top: 40vh;
-  left: 20vw;
+  color: rgb(184, 177, 177)
 }
