@@ -89,8 +89,8 @@ body {
 .container2 {
   font-size: 50px;
   position: fixed;
-  margin-top: 25vh;
-  margin-right: 47vw;
+  margin-top: 5vh;
+  margin-left: 2vw;
   text-align: left;
   color: rgb(0, 0, 0)
 }
