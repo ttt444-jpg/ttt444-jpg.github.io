@@ -1,0 +1,16 @@
+body {
+  background-image: url("Arbeitsplatz.jpeg");
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  font-family: Arial
+}
+
+.zurueck {
+  color: rgb(184, 177, 177);
+  font-size: 50px;
+  font-weight: bold;
+  position: absolute;
+  top: 83vh;
+  left: 15vw
+}
