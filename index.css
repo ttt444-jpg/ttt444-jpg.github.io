@@ -11,7 +11,7 @@ body {
   height: 0;
   border-left: 0px solid transparent;
   border-right: 35vw solid transparent;
-  border-bottom: 100vh solid rgb(184, 177, 177);
+  border-bottom: 100vh solid rgb(255, 255, 255);
   position: fixed;
   opacity: 0.5;
   bottom: 0px;
@@ -24,7 +24,7 @@ body {
   height: 0;
   border-left: 35vw solid transparent;
   border-right: 0vw solid transparent;
-  border-top: 100vh solid rgb(184, 177, 177);
+  border-top: 100vh solid rgb(255, 255, 255);
   position: fixed;
   opacity: 0.6;
   top: 0px;
@@ -35,8 +35,7 @@ body {
 .kreis {
   width: 500px;
   height: 500px;
-  background-color: #075794;
-  opacity: 0.5;
+  background-color: rgba(80, 50, 218, 0.75);
   border-radius: 50%;
   margin-left: 45vw;
   margin-top: 15vh;
@@ -49,7 +48,7 @@ body {
   height: 150vw;
   border-left: 0px solid transparent;
   border-right: 100vw solid transparent;
-  border-top: 100vh solid rgb(184, 177, 177);
+  border-top: 100vh solid rgb(255, 255, 255);
   position: fixed;
   opacity: 0.7;
   bottom: 0px;
@@ -63,10 +62,9 @@ body {
   position: fixed;
   bottom: 0;
   left: 18vw;
-  opacity: 0.5;
   border-left: 32vw solid transparent;
   border-right: 32vw solid transparent;
-  border-bottom: 50vw solid #075794;
+  border-bottom: 50vw solid rgba(80, 50, 218, 0.75);
   pointer-events: none
 }
 
@@ -78,7 +76,7 @@ body {
 }
 
 .IT {
-  color: rgb(184, 177, 177);
+  color: rgb(255, 255, 255);
   font-size: 50px;
   font-weight: bold;
   position: absolute;
@@ -93,22 +91,23 @@ body {
   position: relative;
   z-index: 10;
   margin-top: 2vh;
-  margin-left: 2vw
+  margin-left: 2vw;
+  color: black;
 }
 
 .container2 {
   font-size: 50px;
   position: absolute;
-  margin-top: 18vh;
-  margin-left: 47vw;
+  margin-top: 22vh;
+  margin-left: 49vw;
   text-align: center;
-  color: rgb(184, 177, 177)
+  color: rgb(255, 255, 255);
 }
 
 .container3 {
   text-align: center;
   position: fixed;
-  background-color: rgba(7,87,148, 0.75);
+  background-color: rgba(80, 50, 218, 0.75);
   font-size: 50px;
   font-weight: bold;
   position: fixed;
@@ -118,5 +117,5 @@ body {
 }
 
 .Arbeitsplatz {
-  color: rgb(184, 177, 177)
+  color: rgb(255, 255, 255)
 }
